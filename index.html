@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقعي الاحترافي</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: white;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 8%;
+            background: #111c33;
+        }
+
+        .logo {
+            color: #38bdf8;
+            font-size: 27px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        .hero {
+            min-height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 30px;
+            background: linear-gradient(135deg, #0f172a, #1e3a8a);
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero h1 span {
+            color: #38bdf8;
+        }
+
+        .hero p {
+            font-size: 19px;
+            color: #cbd5e1;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #38bdf8;
+            color: #0f172a;
+            padding: 14px 30px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: white;
+            transform: translateY(-3px);
+        }
+
+        .services {
+            padding: 60px 8%;
+            text-align: center;
+        }
+
+        .services h2 {
+            font-size: 32px;
+            margin-bottom: 35px;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 30px;
+            border-radius: 15px;
+            width: 280px;
+            border: 1px solid #334155;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            border-color: #38bdf8;
+        }
+
+        .card h3 {
+            color: #38bdf8;
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            color: #cbd5e1;
+            line-height: 1.7;
+        }
+
+        footer {
+            background: #111c33;
+            padding: 25px;
+            text-align: center;
+            color: #cbd5e1;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            nav a {
+                margin: 0 6px;
+            }
+
+            .hero h1 {
+                font-size: 34px;
+            }
+
+            .hero p {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">موقعي</div>
+
+        <nav>
+            <a href="#home">الرئيسية</a>
+            <a href="#services">خدماتنا</a>
+            <a href="#contact">تواصل معنا</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h1>أهلاً بيك في <span>موقعي</span></h1>
+
+        <p>
+            بنقدملك تجربة مميزة بتصميم عصري واحترافي.
+            <br>
+            ابدأ رحلتك معانا واكتشف خدماتنا.
+        </p>
+
+        <a href="#services" class="btn">اكتشف المزيد</a>
+    </section>
+
+    <section class="services" id="services">
+        <h2>خدماتنا</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>تصميم المواقع</h3>
+                <p>تصميم مواقع عصرية وسهلة الاستخدام تناسب جميع الأجهزة.</p>
+            </div>
+
+            <div class="card">
+                <h3>تطوير الويب</h3>
+                <p>بناء صفحات ويب باستخدام أحدث تقنيات تطوير المواقع.</p>
+            </div>
+
+            <div class="card">
+                <h3>الدعم الفني</h3>
+                <p>مساعدة في تطوير موقعك وتحسين تجربة المستخدم.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p>جميع الحقوق محفوظة © 2026 - موقعي</p>
+    </footer>
+
+    <script>
+        console.log("الموقع اشتغل بنجاح!");
+
+        document.querySelectorAll('nav a').forEach(function(link) {
+            link.addEventListener('click', function() {
+                console.log("تم الضغط على: " + link.textContent);
+            });
+        });
+    </script>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b1120">
+  <meta name="description" content="اكتشف برامج الكمبيوتر لنظام Windows وروابط التحميل من المواقع الرسمية.">
+  <title>برامجك | تحميل برامج Windows</title>
+
+  <style>
+    :root {
+      --bg: #0b1120;
+      --panel: #111c30;
+      --panel2: #17243a;
+      --blue: #38bdf8;
+      --text: #f1f5f9;
+      --muted: #9caec4;
+      --border: #26364e;
+      --green: #22c55e;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Tahoma, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.8;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    button, input {
+      font: inherit;
+    }
+
+    button {
+      cursor: pointer;
+    }
+
+    .container {
+      width: min(1120px, 92%);
+      margin: auto;
+    }
+
+    header {
+      background: rgba(11, 17, 32, .96);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      backdrop-filter: blur(12px);
+    }
+
+    .navbar {
+      min-height: 76px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .logo {
+      font-size: 25px;
+      font-weight: 900;
+      color: var(--blue);
+    }
+
+    .logo span {
+      color: white;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 22px;
+      align-items: center;
+    }
+
+    nav a {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    nav a:hover {
+      color: var(--blue);
+    }
+
+    .hero {
+      padding: 80px 0 65px;
+      text-align: center;
+      background:
+        radial-gradient(ellipse at top, #18335a 0%, transparent 65%);
+    }
+
+    .tag {
+      display: inline-block;
+      color: var(--blue);
+      border: 1px solid #28506d;
+      background: #10253b;
+      border-radius: 30px;
+      padding: 5px 15px;
+      font-size: 13px;
+      margin-bottom: 18px;
+    }
+
+    .hero h1 {
+      font-size: clamp(30px, 5vw, 49px);
+      line-height: 1.4;
+      margin-bottom: 16px;
+    }
+
+    .hero h1 span {
+      color: var(--blue);
+    }
+
+    .hero p {
+      color: var(--muted);
+      max-width: 650px;
+      margin: 0 auto 28px;
+    }
+
+    .search {
+      width: min(620px, 100%);
+      display: flex;
+      margin: auto;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 13px;
+      padding: 7px;
+      gap: 8px;
+    }
+
+    .search input {
+      flex: 1;
+      min-width: 0;
+      background: transparent;
+      border: none;
+      outline: none;
+      padding: 12px;
+      color: white;
+    }
+
+    .primary-btn {
+      background: var(--blue);
+      color: #07111f;
+      border: 0;
+      border-radius: 9px;
+      padding: 11px 20px;
+      font-weight: bold;
+    }
+
+    .primary-btn:hover {
+      background: #7dd3fc;
+    }
+
+    .stats {
+      display: flex;
+      justify-content: center;
+      gap: 35px;
+      flex-wrap: wrap;
+      margin-top: 28px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .stats strong {
+      color: white;
+    }
+
+    section.content {
+      padding: 35px 0 65px;
+      scroll-margin-top: 85px;
+    }
+
+    .section-heading {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 15px;
+      margin-bottom: 22px;
+    }
+
+    .section-heading h2 {
+      font-size: 25px;
+    }
+
+    .section-heading p {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .categories {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 30px;
+    }
+
+    .category-btn {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      border-radius: 25px;
+      padding: 8px 17px;
+      transition: .2s;
+    }
+
+    .category-btn:hover,
+    .category-btn.active {
+      background: #12334b;
+      border-color: var(--blue);
+      color: var(--blue);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 20px;
+    }
+
+    .software-card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 17px;
+      padding: 23px;
+      display: flex;
+      flex-direction: column;
+      transition: transform .2s, border-color .2s;
+      min-width: 0;
+    }
+
+    .software-card:hover {
+      transform: translateY(-4px);
+      border-color: #3b6486;
+    }
+
+    .app-top {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 15px;
+    }
+
+    .app-icon {
+      width: 60px;
+      height: 60px;
+      flex-shrink: 0;
+      border-radius: 14px;
+      display: grid;
+      place-items: center;
+      font-size: 27px;
+      font-weight: bold;
+      background: var(--panel2);
+      border: 1px solid var(--border);
+    }
+
+    .app-icon.chrome { background: #23354b; }
+    .app-icon.firefox { background: #392b37; }
+    .app-icon.vlc { background: #3c3425; }
+    .app-icon.zip { background: #30372e; }
+    .app-icon.office { background: #23374a; }
+    .app-icon.code { background: #20394d; }
+    .app-icon.gimp { background: #3a3629; }
+    .app-icon.reader { background: #3b2a2d; }
+    .app-icon.player { background: #273b37; }
+
+    .app-title {
+      font-size: 17px;
+      font-weight: bold;
+    }
+
+    .app-category {
+      color: var(--blue);
+      font-size: 12px;
+    }
+
+    .software-card > p {
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 18px;
+      flex: 1;
+    }
+
+    .app-meta {
+      color: #8194ac;
+      font-size: 12px;
+      border-top: 1px solid var(--border);
+      padding-top: 12px;
+      margin-bottom: 15px;
+    }
+
+    .download-btn {
+      display: block;
+      text-align: center;
+      background: #123b53;
+      color: #7dd3fc;
+      border: 1px solid #285875;
+      padding: 10px;
+      border-radius: 9px;
+      font-weight: bold;
+    }
+
+    .download-btn:hover {
+      background: var(--blue);
+      color: #07111f;
+    }
+
+    .empty {
+      grid-column: 1 / -1;
+      text-align: center;
+      color: var(--muted);
+      padding: 45px 10px;
+      background: var(--panel);
+      border-radius: 15px;
+    }
+
+    .notice {
+      margin-top: 25px;
+      padding: 18px;
+      border: 1px solid var(--border);
+      background: #101a2c;
+      border-radius: 12px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .notice strong {
+      color: white;
+    }
+
+    .support {
+      padding: 45px 25px;
+      background: linear-gradient(120deg, #102943, #12213a);
+      border: 1px solid #264766;
+      border-radius: 20px;
+      text-align: center;
+    }
+
+    .support h2 {
+      font-size: 27px;
+      margin-bottom: 10px;
+    }
+
+    .support p {
+      color: var(--muted);
+      margin-bottom: 20px;
+    }
+
+    .whatsapp-btn {
+      display: inline-block;
+      background: var(--green);
+      color: #052e16;
+      padding: 12px 25px;
+      border-radius: 10px;
+      font-weight: bold;
+    }
+
+    .whatsapp-btn:hover {
+      background: #4ade80;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 25px 0;
+      text-align: center;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    footer a {
+      color: var(--blue);
+    }
+
+    @media (max-width: 850px) {
+      .grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .navbar {
+        padding: 15px 0;
+        flex-direction: column;
+      }
+    }
+
+    @media (max-width: 540px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        padding-top: 55px;
+      }
+
+      .section-heading {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .search {
+        flex-wrap: wrap;
+      }
+
+      .search input {
+        flex-basis: 100%;
+      }
+
+      .search .primary-btn {
+        width: 100%;
+      }
+
+      nav {
+        justify-content: center;
+        gap: 16px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="container navbar">
+      <a class="logo" href="#home">برامج<span>ك</span></a>
+
+      <nav aria-label="القائمة الرئيسية">
+        <a href="#home">الرئيسية</a>
+        <a href="#programs">البرامج</a>
+        <a href="#about">عن الموقع</a>
+        <a href="#support">الدعم الفني</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container">
+        <span class="tag">منصة برامج Windows</span>
+
+        <h1>
+          كل برامجك في <span>مكان واحد</span>
+        </h1>
+
+        <p>
+          اكتشف برامج الكمبيوتر المهمة، وابحث عن البرنامج
+          المناسب لك، وانتقل إلى موقعه الرسمي للتحميل.
+        </p>
+
+        <form class="search" id="searchForm">
+          <input
+            id="searchInput"
+            type="search"
+            placeholder="ابحث عن برنامج، مثل Chrome أو VLC..."
+            aria-label="ابحث عن برنامج"
+          >
+          <button class="primary-btn" type="submit">
+            ابحث الآن
+          </button>
+        </form>
+
+        <div class="stats">
+          <span>💻 <strong>Windows</strong></span>
+          <span>🔒 <strong>مصادر رسمية</strong></span>
+          <span>🆓 <strong>برامج مجانية مختارة</strong></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="content" id="programs">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <h2>استكشف البرامج</h2>
+            <p>اختار تصنيف أو ابحث عن البرنامج اللي محتاجه.</p>
+          </div>
+          <p id="resultCount" aria-live="polite"></p>
+        </div>
+
+        <div class="categories" id="categories">
+          <button class="category-btn active" data-category="all">
+            كل البرامج
+          </button>
+          <button class="category-btn" data-category="internet">
+            الإنترنت
+          </button>
+          <button class="category-btn" data-category="media">
+            الصوت والفيديو
+          </button>
+          <button class="category-btn" data-category="tools">
+            أدوات النظام
+          </button>
+          <button class="category-btn" data-category="office">
+            المكتب والإنتاجية
+          </button>
+          <button class="category-btn" data-category="design">
+            التصميم
+          </button>
+        </div>
+
+        <div class="grid" id="softwareGrid">
+
+          <article class="software-card"
+            data-name="Google Chrome"
+            data-category="internet"
+            data-search="جوجل كروم متصفح انترنت browser">
+            <div class="app-top">
+              <div class="app-icon chrome">C</div>
+              <div>
+                <h3 class="app-title">Google Chrome</h3>
+                <span class="app-category">متصفح إنترنت</span>
+              </div>
+            </div>
+            <p>
+              متصفح ويب سريع لتصفح المواقع وتشغيل تطبيقات الإنترنت.
+            </p>
+            <div class="app-meta">Windows · مجاني للاستخدام المعتاد</div>
+            <a class="download-btn"
+              href="https://www.google.com/chrome/"
+              target="_blank" rel="noopener noreferrer">
+              الموقع الرسمي للتحميل ↗
+            </a>
+          </article>
+
+          <article class="software-card"
+            data-name="Mozilla Firefox"
+            data-category="internet"
+            data-search="فايرفوكس متصفح انترنت browser">
+            <div class="app-top">
+              <div class="app-icon firefox">F</div>
+              <div>
+                <h3 class="app-title">Mozilla Firefox</h3>
+                <span class="app-category">متصفح إنترنت</span>
+              </div>
+            </div>
+            <p>
+              متصفح مفتوح المصدر يوفر أدوات للخصوصية وتصفح الويب.
+            </p>
+            <div class="app-meta">Windows · مجاني ومفتوح المصدر</div>
+            <a class="download-btn"
+              href="https://www.mozilla.org/firefox/new/"
+              target="_blank" rel="noopener noreferrer">
+              الموقع الرسمي للتحميل ↗
+            </a>
+          </article>
+
+          <article class="software-card"
+            data-name="VLC Media Player"
+            data-category="media"
+            data-search="vlc في ال سي مشغل فيديو موسيقى صوت">
+            <div class="app-top">
+              <div class="app-icon vlc">V</div>
+              <div>
+                <h3 class="app-title">VLC Media Player</h3>
+                <span class="app-category">مشغل وسائط</span>
+              </div>
+            </div>
+            <p>
+              مشغل فيديو وصوت يدعم مجموعة واسعة من صيغ الوسائط.
+            </p>
+            <div class="app-meta">Windows · مجاني ومفتوح المصدر</div>
+            <a class="download-btn"
+              href="https://www.videolan.org/vlc/"
+              target="_blank" rel="noopener noreferrer">
+              الموقع الرسمي للتحميل ↗
+            </a>
+          </article>
+
+          <article class="software-card"
+            data-name="7-Zip"
+            data-category="tools"
+            data-search="7zip ضغط فك ضغط ملفات zip rar">
+            <div class="app-top">
+              <div class="app-icon zip">7z</div>
+              <div>
+                <h3 class="app-title">7-Zip</h3>
+                <span class="app-category">ضغط الملفات</span>
+              </div>
+            </div>
+            <p>
+              أداة مجانية لضغط الملفات وفك ضغط الأرشيفات المدعومة.
+            </p>
+            <div class="app-meta">Windows · مجاني ومفتوح المصدر</div>
+            <a class="download-btn"
+              href="https://www.7-zip.org/"
+              target="_blank" rel="noopener noreferrer">
+              الموقع الرسمي للتحميل ↗
+            </a>
+          </article>
+
+          <article class="software-card"
+            data-name="LibreOffice"
+            data-category="office"
+            data-search="ليبر اوفيس كتابة مستندات جداول عروض تقديمية">
+            <div class="app-top">
+              <div class="app-icon office">L</div>
+              <div>
+                <h3 class="app-title">LibreOffice</h3>
+                <span class="app-category">مكتب وإنتاجية</span>
+              </div>
+            </div>
+            <p>
+              مجموعة مكتبية لكتابة المستندات وإنشاء الجداول والعروض.
+            </p>
+            <div class="app-meta">Windows · مجاني ومفتوح المصدر</div>
+            <a class="download-btn"
+              href="https://www.libreoffice.org/download/"
+              target="_blank" rel="noopener noreferrer">
+              الموقع الرسمي للتحميل ↗
+            </a>
+          </article>
+
+          <article class="software-card"
+            data-name="Visual Studio Code"
+            data-category="tools"
+            data-search="فيجوال ستوديو كود برمجة محرر اكواد vscode">
+            <div class="app-top">
+              <div class="app-icon code">&lt;/&gt;</div>
+              <div>
+                <h3 class="app-title">Visual Studio Code</h3>
+                <span class="app-category">برمجة وتطوير</span>
+              </div>
+            </div>
+            <p>
+              محرر أكواد لتطوير المواقع والبرامج بلغات برمجة متعددة.
+            </p>
+            <div class="app-meta">Windows · مجاني</div>
+            <a class="download-btn"
+              href="https://code.visualstudio.com/Download"
+              target="_blank" rel="noopener noreferrer">
+              الموقع الرسمي للتحميل ↗
+            </a>
+          </article>
+
+          <article class="software-card"
+            data-name="GIMP"
+            data-category="design"
+            data-search="جيمب تعديل صور تصميم تحرير صور">
+            <div class="app-top">
+              <div class="app-icon gimp">G</div>
+              <div>
+                <h3 class="app-title">GIMP</h3>
+                <span class="app-category">تصميم وتعديل الصور</span>
+              </div>
+            </div>
+            <p>
+              برنامج لتعديل الصور وإنشاء الرسومات والتصميمات.
+            </p>
+            <div class="app-meta">Windows · مجاني ومفتوح المصدر</div>
+            <a class="download-btn"
+              href="https://www.gimp.org/downloads/"
+              target="_blank" rel="noopener noreferrer">
+              الموقع الرسمي للتحميل ↗
+            </a>
+          </article>
+
+          <article class="software-card"
+            data-name="Adobe Acrobat Reader"
+            data-category="office"
+            data-search="ادوب ريدر pdf قراءة ملفات بي دي اف">
+            <div class="app-top">
+              <div class="app-icon reader">PDF</div>
+              <div>
+                <h3 class="app-title">Adobe Acrobat Reader</h3>
+                <span class="app-category">قارئ PDF</span>
+              </div>
+            </div>
+            <p>
+              لفتح ملفات PDF وقراءتها واستخدام أدوات التعليق الأساسية.
+            </p>
+            <div class="app-meta">Windows · مجاني للقراءة الأساسية</div>
+            <a class="download-btn"
+              href="https://get.adobe.com/reader/"
+              target="_blank" rel="noopener noreferrer">
+              الموقع الرسمي للتحميل ↗
+            </a>
+          </article>
+
+          <article class="software-card"
+            data-name="OBS Studio"
+            data-category="media"
+            data-search="obs تسجيل شاشة بث مباشر فيديو">
+            <div class="app-top">
+              <div class="app-icon player">OBS</div>
+              <div>
+                <h3 class="app-title">OBS Studio</h3>
+                <span class="app-category">تسجيل وبث مباشر</span>
+              </div>
+            </div>
+            <p>
+              برنامج لتسجيل الشاشة والبث المباشر وإنشاء مشاهد الفيديو.
+            </p>
+            <div class="app-meta">Windows · مجاني ومفتوح المصدر</div>
+            <a class="download-btn"
+              href="https://obsproject.com/download"
+              target="_blank" rel="noopener noreferrer">
+              الموقع الرسمي للتحميل ↗
+            </a>
+          </article>
+
+        </div>
+
+        <div class="notice">
+          <strong>تنبيه أمان:</strong>
+          تأكد من اسم الموقع وعنوانه قبل تحميل أي ملف.
+          روابط التحميل هنا توجهك إلى المواقع الرسمية للبرامج،
+          وقد تختلف إصدارات البرامج ومتطلبات تشغيلها.
+          بعض البرامج قد تعرض خدمات أو خططًا مدفوعة اختيارية.
+        </div>
+      </div>
+    </section>
+
+    <section class="content" id="about">
+      <div class="container">
+        <div class="support">
+          <h2>عن موقع برامجك</h2>
+          <p>
+            هدفنا تسهيل الوصول إلى برامج الكمبيوتر من مصادرها الرسمية،
+            مع توفير معلومات واضحة عن كل برنامج.
+          </p>
+          <a class="primary-btn" href="#programs">
+            تصفح البرامج
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="content" id="support">
+      <div class="container">
+        <div class="support">
+          <h2>🛠️ محتاج مساعدة؟</h2>
+          <p>
+            لو عندك سؤال عن الموقع أو واجهتك مشكلة،
+            تواصل مع الدعم الفني عن طريق واتساب.
+          </p>
+
+          <a
+            class="whatsapp-btn"
+            href="https://wa.me/201275644074?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D8%8C%20%D8%A3%D8%AD%D8%AA%D8%A7%D8%AC%20%D9%85%D8%B3%D8%A7%D8%B9%D8%AF%D8%A9%20%D8%A8%D8%AE%D8%B5%D9%88%D8%B5%20%D9%85%D9%88%D9%82%D8%B9%20%D8%A8%D8%B1%D8%A7%D9%85%D8%AC%D9%83"
+            target="_blank"
+            rel="noopener noreferrer">
+            تواصل مع الدعم عبر واتساب
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>
+        © <span id="year"></span> برامجك - دليل برامج Windows
+      </p>
+      <p>روابط البرامج تعود إلى المواقع الرسمية لأصحابها.</p>
+    </div>
+  </footer>
+
+  <script>
+    const searchInput = document.getElementById("searchInput");
+    const searchForm = document.getElementById("searchForm");
+    const cards = Array.from(
+      document.querySelectorAll(".software-card")
+    );
+    const categoryButtons = document.querySelectorAll(".category-btn");
+    const resultCount = document.getElementById("resultCount");
+
+    let selectedCategory = "all";
+
+    function filterPrograms() {
+      const query = searchInput.value.trim().toLowerCase();
+      let visible = 0;
+
+      cards.forEach(function(card) {
+        const name = (card.dataset.name || "").toLowerCase();
+        const keywords = (card.dataset.search || "").toLowerCase();
+        const category = card.dataset.category;
+
+        const matchesSearch =
+          name.includes(query) || keywords.includes(query);
+
+        const matchesCategory =
+          selectedCategory === "all" ||
+          category === selectedCategory;
+
+        const show = matchesSearch && matchesCategory;
+
+        card.hidden = !show;
+
+        if (show) visible++;
+      });
+
+      resultCount.textContent = "عدد البرامج: " + visible;
+
+      let empty = document.getElementById("emptyMessage");
+
+      if (visible === 0) {
+        if (!empty) {
+          empty = document.createElement("div");
+          empty.id = "emptyMessage";
+          empty.className = "empty";
+          empty.textContent =
+            "ملقيناش البرنامج ده. جرّب اسم تاني أو اختار تصنيف مختلف.";
+
+          document.getElementById("softwareGrid").appendChild(empty);
+        }
+      } else if (empty) {
+        empty.remove();
+      }
+    }
+
+    searchInput.addEventListener("input", filterPrograms);
+
+    searchForm.addEventListener("submit", function(event) {
+      event.preventDefault();
+      filterPrograms();
+      document.getElementById("programs").scrollIntoView({
+        behavior: "smooth"
+      });
+    });
+
+    categoryButtons.forEach(function(button) {
+      button.addEventListener("click", function() {
+        selectedCategory = button.dataset.category;
+
+        categoryButtons.forEach(function(item) {
+          item.classList.toggle("active", item === button);
+        });
+
+        filterPrograms();
+      });
+    });
+
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
+
+    filterPrograms();
+  </script>
+
+</body>
+</html>
